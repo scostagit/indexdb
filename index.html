@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>IndexDB</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+}
+
+
+        table, tr, td, th {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+</style>
+
+
+</head>
+<body>
+
+<div class="header">
+  <h1>IndexDB your Datebase on Client side.</h1>
+</div>
+
+<input id="btnGet" type="button" value="Get Name" />
+<input id="btnUpdate" type="button" value="Update Name" />
+<input id="btnShow" type="button" value="Show the data" />
+
+<div id="myTab">
+    <table id="show">
+        <thead>
+            <th>User ID </th>
+            <th>Name</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<script src="js/createDatebase.js"></script>
+<script src="js/transactions.js"></script>
+<script src="js/removeItem.js"></script>  
+<script src="js/accessData.js"></script>  
+<script src="js/updateData.js"></script>  
+<script src="js/cursor.js"></script> 
+
+</body>
+</html>
+
+<!--
+    documentation
+    https://www.w3.org/TR/IndexedDB/
+-->
